@@ -1,0 +1,52 @@
+{
+  "name": "seo-audit-toolkit",
+  "version": "1.0.0",
+  "description": "Comprehensive technical SEO audit scripts and tools for professionals",
+  "main": "javascript/index.js",
+  "scripts": {
+    "test": "jest",
+    "audit": "node examples/basic-audit.js",
+    "lint": "eslint javascript/**/*.js",
+    "start": "node javascript/index.js"
+  },
+  "keywords": [
+    "seo",
+    "audit",
+    "core-web-vitals",
+    "technical-seo",
+    "schema",
+    "sitemap",
+    "page-speed",
+    "lighthouse",
+    "web-performance"
+  ],
+  "author": "Youssef Hodaigui <youssef@mindflowmarketing.com>",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^19.0.0",
+    "lighthouse": "^9.6.0",
+    "axios": "^1.3.0",
+    "cheerio": "^1.0.0-rc.12",
+    "xml2js": "^0.4.23",
+    "yargs": "^17.6.0",
+    "chalk": "^5.2.0",
+    "ora": "^6.1.2"
+  },
+  "devDependencies": {
+    "jest": "^29.3.0",
+    "eslint": "^8.32.0",
+    "@types/node": "^18.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youssefhodaigui/seo-audit-toolkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/youssefhodaigui/seo-audit-toolkit/issues"
+  },
+  "homepage": "https://github.com/youssefhodaigui/seo-audit-toolkit#readme",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
