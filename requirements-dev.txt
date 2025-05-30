@@ -1,0 +1,118 @@
+# Development dependencies for SEO Audit Toolkit
+# Install with: pip install -r requirements-dev.txt
+
+# Testing
+pytest>=7.2.0
+pytest-cov>=4.0.0
+pytest-mock>=3.10.0
+pytest-asyncio>=0.20.0
+pytest-timeout>=2.1.0
+
+# Code Quality
+flake8>=6.0.0
+black>=23.0.0
+isort>=5.12.0
+mypy>=1.0.0
+pylint>=2.16.0
+
+# Documentation
+sphinx>=6.0.0
+sphinx-rtd-theme>=1.2.0
+myst-parser>=0.19.0
+sphinx-autodoc-typehints>=1.22.0
+
+# Development Tools
+ipython>=8.10.0
+jupyter>=1.0.0
+notebook>=6.5.0
+jupyterlab>=3.6.0
+
+# Debugging
+ipdb>=0.13.0
+pdbpp>=0.10.0
+
+# Performance Profiling
+memory-profiler>=0.60.0
+line-profiler>=4.0.0
+py-spy>=0.3.0
+
+# Security Testing
+bandit>=1.7.0
+safety>=2.3.0
+
+# Build Tools
+wheel>=0.38.0
+setuptools>=67.0.0
+twine>=4.0.0
+build>=0.10.0
+
+# Pre-commit Hooks
+pre-commit>=3.0.0
+
+# Type Stubs
+types-requests>=2.28.0
+types-beautifulsoup4>=4.11.0
+
+# API Documentation
+pydoc-markdown>=4.6.0
+pdoc3>=0.10.0
+
+# Benchmarking
+pytest-benchmark>=4.0.0
+
+# Mocking and Testing Utilities
+responses>=0.22.0
+faker>=17.0.0
+factory-boy>=3.2.0
+
+# Code Coverage
+coverage[toml]>=7.0.0
+codecov>=2.1.0
+
+# Automation
+invoke>=2.0.0
+fabric>=3.0.0
+
+# Environment Management
+python-dotenv>=0.21.0
+
+# HTTP Testing
+httpretty>=1.1.0
+vcrpy>=4.2.0
+
+# Async Testing
+aioresponses>=0.7.0
+
+# Data Validation
+pydantic>=1.10.0
+
+# CLI Testing
+click-testing>=0.2.0
+
+# Time Testing
+freezegun>=1.2.0
+
+# Monitoring
+sentry-sdk>=1.14.0
+
+# Profiling UI
+snakeviz>=2.1.0
+
+# Package Management
+pip-tools>=6.12.0
+pipdeptree>=2.3.0
+
+# Cross-platform Testing
+tox>=4.4.0
+nox>=2022.11.0
+
+# Release Management
+bump2version>=1.0.0
+gitchangelog>=3.0.0
+
+# Code Metrics
+radon>=5.1.0
+xenon>=0.9.0
+
+# Dependency Checking
+pip-audit>=2.4.0
